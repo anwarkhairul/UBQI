@@ -1,6 +1,6 @@
-name: wordpress-ubqurrotulibaad
+name: ubqurrotulibaad
 version: 6.4.0
-description: WordPress content management system
+description: management system
 container:
   image: wordpress:6.4.0-apache
   port: 80
@@ -23,7 +23,7 @@ dependencies:
   - type: MYSQL
     name: mysql
     version: '8.0'
-domain: wordpress-ubqurrotulibaad.deployaja.id
+domain: ubq-one.vercel.app
 envMap:
   db_host: WORDPRESS_DB_HOST
   db_name: WORDPRESS_DB_NAME
