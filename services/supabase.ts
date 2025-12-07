@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 // URL Project Baru (wbhfjsbxsbhkhppuytcn)
 const SUPABASE_URL = 'https://wbhfjsbxsbhkhppuytcn.supabase.co';
 
-// Key Project Baru (Anon Key)
+// Key Project Baru (Anon Key) = 'sb_publishable_zIHNMWCLMQbbVFthU3K_cA_AMK-4y-p';
 const SUPABASE_KEY: string = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndiaGZqc2J4c2Joa2hwcHV5dGNuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ3MzYzMjAsImV4cCI6MjA4MDMxMjMyMH0.w4QwTjvxHOtIL9dLcPZiAR7vS487F2KV00ZQkDDb-j0'; 
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
